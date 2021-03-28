@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[124]:
 
 
 from sys import stdin
@@ -25,24 +22,7 @@ np.savetxt('predictions.csv', prediction, delimiter=',')
 
 
 
-# In[ ]:
 
-
-
-
-
-
-    
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
