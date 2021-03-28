@@ -13,11 +13,12 @@ for line in stdin:
     
     Mean=np.mean(d)
     if Mean<d[499]:
-        prediction.append(0)
+        print(0)
     if Mean>d[499]:
-        prediction.append(1)
+        print(1)
+       
 
-np.savetxt('predictions.csv', prediction, delimiter=',')
+#np.savetxt('predictions.csv', prediction, delimiter=',')
 
 
 
